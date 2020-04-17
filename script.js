@@ -7,4 +7,5 @@ document.querySelector('.button').addEventListener('click', function() {
     totalCases += Number(newCases);
     document.getElementById('num-new-cases').textContent = newCases;
     document.getElementById('num-total-cases').textContent = totalCases;
+    // TODO toggle emphasis class based on how many new cases there are
 });
